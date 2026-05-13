@@ -1,0 +1,13 @@
+$default-font: Roboto, sans-serif;
+$blue-color: #00acdc;
+$dark-color: #060b35;
+$gray-color: #616070;
+$white-color: #fff;
+$logo-width: 40px;
+$logo-height: 40px;
+$nav-height: 60px;
+$cards-width: 200px;
+
+@mixin uppercase-text {
+  text-transform: uppercase;
+}
