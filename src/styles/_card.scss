@@ -30,7 +30,7 @@
   transition: all 0.3s;
   width: $cards-width;
   border-radius: 5px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $border-light-color;
   background-color: $white-color;
   display: flex;
   flex-direction: column;
@@ -131,7 +131,7 @@
     transform: scale(1.2);
 
     .card__title {
-      color: #34568b;
+      color: $hover-title-color;
     }
   }
 }
