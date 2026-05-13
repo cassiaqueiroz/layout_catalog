@@ -4,7 +4,6 @@
   grid-template-columns: repeat(1, $cards-width);
   gap: 46px 48px;
   padding: 50px 40px;
-  box-sizing: border-box;
 }
 
 @media (min-width: 488px) {
